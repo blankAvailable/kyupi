@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inheritJdk="true">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="commons-cli-1.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/../kyupi/lib/commons-cli-1.0.jar!/"/>
+	</lib>
+	<lib name="commons-compress-1.4.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/../kyupi/lib/commons-compress-1.4.1.jar!/"/>
+	</lib>
+	<lib name="log4j-all-1.3alpha-8.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/../kyupi/lib/log4j-all-1.3alpha-8.jar!/"/>
+	</lib>
+	<levels>
+		<level name="hamcrest-core-1.3" value="project"/>
+		<level name="junit-4.12" value="project"/>
+		<level name="log4j-1.2.17" value="project"/>
+	</levels>
+</component>
